@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{4348688e-efc6-49b9-a250-c6d393873708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu &amp; Button">
+      <UniqueIdentifier>{50fb48e8-e8b4-41fd-8979-078393b3694d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{1a0ee031-abd4-4f8a-8a44-16470a101abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weapons">
+      <UniqueIdentifier>{9f9c7c24-0451-4609-93ab-7efd24e1e25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterator &amp; Stack">
+      <UniqueIdentifier>{c602af46-f201-4ad0-a6cb-2254413de8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{0c3134e5-a748-45e8-9657-ec46d602484f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateBase.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverMenu.cpp">
+      <Filter>Menu &amp; Button</Filter>
+    </ClCompile>
+    <ClCompile Include="PausedMenu.cpp">
+      <Filter>Menu &amp; Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonIterator.cpp">
+      <Filter>Iterator &amp; Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Menu &amp; Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DifficultyList.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="StateStack.cpp">
+      <Filter>Iterator &amp; Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponNode.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponWheel.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUps.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateBase.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverMenu.h">
+      <Filter>Menu &amp; Button</Filter>
+    </ClInclude>
+    <ClInclude Include="PausedMenu.h">
+      <Filter>Menu &amp; Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonIterator.h">
+      <Filter>Iterator &amp; Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Menu &amp; Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DifficultyList.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="StateStack.h">
+      <Filter>Iterator &amp; Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponNode.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponWheel.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUps.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
